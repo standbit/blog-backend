@@ -7,9 +7,19 @@
 Для запуска блога у вас уже должен быть установлен Python 3.
 
 - Скачайте код
-- Создайте и активируйте виртуальное окружение `virtualenv venv` и `source venv/bin/activate`
-- Установите зависимости командой `pip install -r requirements.txt`
-- Запустите сервер командой `python3 manage.py runserver`
+- Создайте и активируйте виртуальное окружение
+```python
+$ virtualenv venv
+$ source venv/bin/activate
+```
+- Установите зависимости командой
+```python
+$ pip install -r requirements.txt
+```
+- Запустите сервер командой 
+``` python
+$ python3 manage.py runserver
+```
 
 После этого переходите по ссылке [127.0.0.1:8000](http://127.0.0.1:8000), вы увидите главную страницу.
 
